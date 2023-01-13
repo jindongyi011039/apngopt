@@ -5,6 +5,7 @@ CFLAGS     = -Wall -pedantic
 CFLAGS_OPT = -O2
 CFLAGS_7Z  = -Wno-sign-compare -Wno-reorder -Wno-maybe-uninitialized -Wno-parentheses
 LIBS       = -lstdc++ -lm -lpng -lz
+IMAGEQUANT = libimagequant/libimagequant.a
 
 INCUDE_DIRS := $(addprefix -I./, $(SRC_DIRS))
 OBJ_DIRS := $(addprefix obj/, $(SRC_DIRS))
@@ -16,7 +17,7 @@ OBJECTS := $(OBJECTS:.cpp=.o)
 all : $(PACKAGE)
 
 $(PACKAGE) : objdirs $(OBJECTS)
-	$(CC) -o $@ $(OBJECTS) -s $(LIBS)
+	$(CC) -o $@ $(OBJECTS) $(IMAGEQUANT) -s $(LIBS)
 
 objdirs :
 	mkdir -p $(OBJ_DIRS)
@@ -25,7 +26,7 @@ obj/%.o : %.cpp
 	$(CC) -o $@ -c $< $(INCUDE_DIRS) $(CFLAGS) $(CFLAGS_OPT)
 
 obj/%.o : %.c
-	$(CC) -o $@ -c $< $(INCUDE_DIRS) $(CFLAGS) $(CFLAGS_OPT)
+	$(CC) -o $@ -std=c99 -c $< $(INCUDE_DIRS) $(CFLAGS) $(CFLAGS_OPT)
 
 obj/%.o : %.cc
 	$(CC) -o $@ -c $< $(INCUDE_DIRS) $(CFLAGS) $(CFLAGS_OPT) $(CFLAGS_7Z)

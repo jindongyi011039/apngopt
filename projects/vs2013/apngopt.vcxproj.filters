@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\zlib">
+      <UniqueIdentifier>{0f195560-a0a4-47d0-9fe6-ec35ad508068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\7z">
+      <UniqueIdentifier>{631749fe-5cfc-407f-9407-301f82001d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zopfli">
+      <UniqueIdentifier>{3f193135-63be-4b70-9a8f-740dc623d872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libpng">
+      <UniqueIdentifier>{78cff6b7-b6b2-4e99-a2df-7c3c383fad22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\apngopt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\adler32.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\compress.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\crc32.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\deflate1.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\gzclose.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\gzlib.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\gzread.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\gzwrite.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\infback.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\inffast.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\inflate.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\inftrees.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\trees.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\uncompr.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\zutil.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\7zdeflate.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\7zlzma.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\AriBitCoder.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\CRC.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\DeflateDecoder.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\DeflateEncoder.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\HuffmanEncoder.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\IInOutStreams.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\InByte.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\LenCoder.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\LiteralCoder.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\LSBFDecoder.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\LSBFEncoder.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\LZMA.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\LZMADecoder.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\LZMAEncoder.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\OutByte.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\WindowIn.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\7z\WindowOut.cc">
+      <Filter>Source Files\7z</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\blocksplitter.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\cache.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\deflate.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\gzip_container.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\hash.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\katajainen.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\lz77.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\squeeze.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\tree.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\util.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\zlib_container.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zopfli\zopfli_lib.c">
+      <Filter>Source Files\zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\png.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngerror.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngget.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngmem.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngpread.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngread.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngrio.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngrtran.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngrutil.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngset.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngtrans.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngwio.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngwrite.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngwtran.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libpng\pngwutil.c">
+      <Filter>Source Files\libpng</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\zlib\crc32.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\deflate1.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\gzguts.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\inffast.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\inffixed.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\inflate.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\inftrees.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\trees.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\zconf.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\zlib.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\zutil.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\7z.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\AriBitCoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\AriConst.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\AriPrice.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTree2.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTree2Main.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTree3.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTree3Main.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTree3Z.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTree3ZMain.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTree4.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTree4b.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTree4bMain.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTree4Main.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTree.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTreeMain.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTreeMF.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BinTreeMFMain.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\BitTreeCoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\Const.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\CRC.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\DeflateDecoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\DeflateEncoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\HuffmanDecoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\HuffmanEncoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\IInOutStreams.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\InByte.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\LenCoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\LiteralCoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\LSBFDecoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\LSBFEncoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\LZMA.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\LZMADecoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\LZMAEncoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\OutByte.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\Portable.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\RangeCoder.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\RCDefs.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\WindowIn.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\7z\WindowOut.h">
+      <Filter>Source Files\7z</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\blocksplitter.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\cache.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\deflate.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\gzip_container.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\hash.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\katajainen.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\lz77.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\squeeze.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\tree.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\util.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\zlib_container.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zopfli\zopfli.h">
+      <Filter>Source Files\zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libpng\pngstruct.h">
+      <Filter>Source Files\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libpng\pngpriv.h">
+      <Filter>Source Files\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libpng\pnglibconf.h">
+      <Filter>Source Files\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libpng\pnginfo.h">
+      <Filter>Source Files\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libpng\pngdebug.h">
+      <Filter>Source Files\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libpng\pngconf.h">
+      <Filter>Source Files\libpng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libpng\png.h">
+      <Filter>Source Files\libpng</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
